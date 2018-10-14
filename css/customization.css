@@ -1,0 +1,23 @@
+@font-face {
+  font-family: NeutraText;
+  font-weight: bold;
+  src: url("../fonts/neutra_text_bold.otf") format("opentype");
+}
+.sponsor {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  border: solid 2px #000;
+  border-radius: 1rem;
+}
+.sponsor .logo {
+  margin-right: 2rem;
+  border: none;
+}
+.sponsor .logo img {
+  max-width: 200px;
+  height: auto;
+}
